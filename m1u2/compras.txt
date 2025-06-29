@@ -1,5 +1,5 @@
 1 huevo
-2 coca cola
+2 Sprite
 3 fruta
 4 helado
 5 fideos
