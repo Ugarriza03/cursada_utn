@@ -1,0 +1,9 @@
+1 huevo
+2 coca cola
+3 fruta
+4 helado
+5 fideos
+6 yerba mate
+7 papel hiegenico
+8 agua
+9 leche
