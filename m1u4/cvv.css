@@ -1,0 +1,23 @@
+ol {
+    color: blueviolet; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.importante{
+    color: rgb(255, 179, 0);
+    font-family: initial;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
