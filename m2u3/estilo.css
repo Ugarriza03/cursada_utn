@@ -1,0 +1,108 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #2b2b2b;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #6a994e, #386641);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Menú lateral */
+.menu {
+    background: #e76f51;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    margin: 12px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffe8d6;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    background: #fefae0;
+    padding: 20px;
+    flex: 1;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contenido-principal h2 {
+    margin-bottom: 10px;
+    color: #bc6c25;
+}
+
+/* Contenido adicional */
+.contenido-adicional {
+    background: #f5ebe0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contenido-adicional h2 {
+    margin-bottom: 10px;
+    color: #6a994e;
+}
+
+/* MEDIA QUERY -> menos de 800px */
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .menu {
+        background: #f4a261;
+        text-align: center;
+    }
+
+    .contenido-principal,
+    .contenido-adicional {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
